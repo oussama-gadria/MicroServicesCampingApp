@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Apigetway/Apigetway.iml" filepath="$PROJECT_DIR$/Apigetway/Apigetway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Camping/Camping.iml" filepath="$PROJECT_DIR$/Camping/Camping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" filepath="$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/program/program.iml" filepath="$PROJECT_DIR$/program/program.iml" />
+    </modules>
+  </component>
+</project>
