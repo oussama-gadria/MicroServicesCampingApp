@@ -1,0 +1,9 @@
+server:
+  port: 8222
+eureka:
+  client:
+    refresh:
+      enable: false
+spring:
+  application:
+    name: Apigetway
