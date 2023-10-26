@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
+        <module name="config-server" />
+        <module name="AvisCamping" />
         <module name="Apigetway" />
-        <module name="Reservation" />
         <module name="program" />
         <module name="offrePlat" />
         <module name="Camping" />
@@ -16,7 +17,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Apigetway" target="1.8" />
+      <module name="AvisCamping" target="1.8" />
       <module name="Camping" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="offrePlat" target="1.8" />
       <module name="program" target="1.8" />
@@ -26,9 +29,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Apigetway" options="-parameters" />
+      <module name="AvisCamping" options="-parameters" />
       <module name="Camping" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="Reservation" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="offrePlat" options="-parameters" />
       <module name="program" options="-parameters" />
     </option>
