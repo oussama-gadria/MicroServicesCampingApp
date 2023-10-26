@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="879f7d0b-b03b-4631-a62e-4309bee1ae52" name="Changes" comment="" />
+    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,18 +24,19 @@
     </option>
   </component>
   <component name="ProjectId" id="2XGlVEZH5KgL438aMMMbNQqtwMt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/abede/Desktop/5TWIN1/MicroServicesCampingApp/program/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amine/Desktop/MicroServicesCampingApp&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -47,13 +48,6 @@
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvisCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="AvisCamping" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.AvisCamping.AvisCampingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,13 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Reservation" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Reservation.Reservation.ReservationApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProgramApplication" />
+      <item itemvalue="Spring Boot.ApigetwayApplication" />
+      <item itemvalue="Spring Boot.CampingApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
