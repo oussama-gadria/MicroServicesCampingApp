@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
+    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amine/Desktop/MicroServicesCampingApp&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp",
+    "spring.configuration.checksum": "1f431b6b1bb68cbda420a6fc3b703111"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -66,6 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OffrePlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="offrePlat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offrePlat.offrePlat.OffrePlatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="program" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.program.program.ProgramApplication" />
@@ -74,6 +90,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.OffrePlatApplication" />
       <item itemvalue="Spring Boot.ProgramApplication" />
       <item itemvalue="Spring Boot.ApigetwayApplication" />
       <item itemvalue="Spring Boot.CampingApplication" />
@@ -83,12 +100,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e84cc10f-8cef-400f-b5c2-0fac42fc742d" name="Changes" comment="" />
+      <changelist id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
       <created>1698263318885</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698263318885</updated>
       <workItem from="1698263320140" duration="3241000" />
+      <workItem from="1698310379254" duration="636000" />
     </task>
     <servers />
   </component>

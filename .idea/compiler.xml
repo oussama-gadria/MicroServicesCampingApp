@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
         <module name="Apigetway" />
-        <module name="Reservation" />
         <module name="program" />
         <module name="offrePlat" />
         <module name="Camping" />
