@@ -45,7 +45,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "8e9e3beaa1da51ebba8cda4a8a93e35a"
+    "spring.configuration.checksum": "570cf0837bfcdd2500fbd2672836fc39"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -125,7 +125,7 @@
       <updated>1698263318885</updated>
       <workItem from="1698263320140" duration="3241000" />
       <workItem from="1698317485424" duration="6077000" />
-      <workItem from="1698353560698" duration="575000" />
+      <workItem from="1698352852363" duration="849000" />
     </task>
     <servers />
   </component>
