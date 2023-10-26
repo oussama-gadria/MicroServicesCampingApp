@@ -28,14 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/amine/Desktop/MicroServicesCampingApp&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -47,6 +48,13 @@
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvisCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AvisCamping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.AvisCamping.AvisCampingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OffrePlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="offrePlat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offrePlat.offrePlat.OffrePlatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="program" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.program.program.ProgramApplication" />
@@ -73,6 +88,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.AvisCampingApplication" />
+      <item itemvalue="Spring Boot.OffrePlatApplication" />
       <item itemvalue="Spring Boot.ProgramApplication" />
       <item itemvalue="Spring Boot.ApigetwayApplication" />
       <item itemvalue="Spring Boot.CampingApplication" />
