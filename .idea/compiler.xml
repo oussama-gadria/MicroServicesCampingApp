@@ -9,22 +9,28 @@
         <module name="Apigetway" />
         <module name="EurekaServer" />
         <module name="Reservation" />
+        <module name="AvisCamping" />
+        <module name="program" />
         <module name="Camping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Apigetway" target="1.8" />
+      <module name="AvisCamping" target="1.8" />
       <module name="Camping" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="program" target="1.8" />
       <module name="Reservation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Apigetway" options="-parameters" />
+      <module name="AvisCamping" options="-parameters" />
       <module name="Camping" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="Reservation" options="-parameters" />
+      <module name="program" options="-parameters" />
     </option>
   </component>
 </project>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84cc10f-8cef-400f-b5c2-0fac42fc742d" name="Changes" comment="" />
+    <list default="true" id="879f7d0b-b03b-4631-a62e-4309bee1ae52" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp"
+    "last_opened_file_path": "C:/Users/abede/Desktop/5TWIN1/MicroServicesCampingApp/program/pom.xml"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -47,6 +47,13 @@
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvisCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AvisCamping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.AvisCamping.AvisCampingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,6 +75,13 @@
     <configuration name="ProgramApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="program" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.program.program.ProgramApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Reservation.Reservation.ReservationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
