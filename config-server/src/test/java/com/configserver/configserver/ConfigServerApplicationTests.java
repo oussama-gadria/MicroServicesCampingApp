@@ -1,10 +1,10 @@
-package com.Reservation.Reservation;
+package com.configserver.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReservationApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84cc10f-8cef-400f-b5c2-0fac42fc742d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2XGlVEZH5KgL438aMMMbNQqtwMt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,10 +39,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "8e9e3beaa1da51ebba8cda4a8a93e35a"
+    "last_opened_file_path": "C:/Users/21653/Documents/GitHub/MicroServicesCampingApp/AvisCamping/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "68063bacdc9a8963b9e02f2bc066301b"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -74,6 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.configserver.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="EurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.EurekaServer.EurekaServer.EurekaServerApplication" />
@@ -97,23 +107,24 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AvisCampingApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.OffrePlatApplication" />
       <item itemvalue="Spring Boot.ProgramApplication" />
       <item itemvalue="Spring Boot.ApigetwayApplication" />
       <item itemvalue="Spring Boot.CampingApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e84cc10f-8cef-400f-b5c2-0fac42fc742d" name="Changes" comment="" />
+      <changelist id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
       <created>1698263318885</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698263318885</updated>
       <workItem from="1698263320140" duration="3241000" />
-      <workItem from="1698323443654" duration="610000" />
+      <workItem from="1698317485424" duration="6077000" />
     </task>
     <servers />
   </component>
