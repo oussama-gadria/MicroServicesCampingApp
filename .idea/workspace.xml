@@ -15,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
@@ -83,17 +82,24 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_30.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/controllers/OffrePlatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/entities/OffrePlat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/entities/PlatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/repositories/OffrePlatRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/services/Iservices/IOffrePlatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offrePlat/src/main/java/com/offrePlat/offrePlat/services/OffrePlatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apigetway/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/Camping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingServicesInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaServer/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offrePlat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/camping.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/camping.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +109,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -139,11 +144,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/21653/Documents/GitHub/MicroServicesCampingApp/AvisCamping/pom.xml",
+    "last_opened_file_path": "C:/Users/21653/Documents/GitHub/MicroServicesCampingApp/Reservation/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "ab052bb55e0d5fdc3b756e2b50d35829"
+    "spring.configuration.checksum": "8bb147504ca987286cdd3b4151ac701a"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -153,7 +158,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
+  <component name="RunManager" selected="Spring Boot.CampingApplication">
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
@@ -203,7 +208,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Reservation.Reservation.ReservationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.ReservationApplication" />
       <item itemvalue="Spring Boot.AvisCampingApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -223,8 +236,8 @@
       <updated>1698263318885</updated>
       <workItem from="1698263320140" duration="3241000" />
       <workItem from="1698317485424" duration="6077000" />
-      <workItem from="1698352852363" duration="849000" />
-      <workItem from="1698426082681" duration="14694000" />
+      <workItem from="1698352852363" duration="27296000" />
+      <workItem from="1698436100620" duration="9212000" />
     </task>
     <servers />
   </component>
