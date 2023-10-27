@@ -1,4 +1,4 @@
-package Entity;
+package com.Reservation.Reservation.Entity;
 
 import lombok.Data;
 

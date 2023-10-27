@@ -1,6 +1,6 @@
-package Service;
+package com.Reservation.Reservation.Service;
 
-import Entity.Reservation;
+import com.Reservation.Reservation.Entity.Reservation;
 
 import java.util.List;
 import java.util.Optional;

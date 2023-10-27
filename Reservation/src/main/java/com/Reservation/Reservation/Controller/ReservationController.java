@@ -1,7 +1,7 @@
-package Controller;
+package com.Reservation.Reservation.Controller;
 
-import Entity.Reservation;
-import Service.ReservationServiceInterface;
+import com.Reservation.Reservation.Entity.Reservation;
+import com.Reservation.Reservation.Service.ReservationServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
