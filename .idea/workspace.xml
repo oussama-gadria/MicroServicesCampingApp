@@ -5,19 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/src/main/java/com/program/program/Controllers/ProgramController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/src/main/java/com/program/program/Repositories/ProgramRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/src/main/java/com/program/program/Services/ProgramService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program/src/main/java/com/program/program/entities/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/program.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/program.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/program/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp/Reservation/pom.xml",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -138,7 +151,7 @@
       <workItem from="1698263320140" duration="3241000" />
       <workItem from="1698317485424" duration="6077000" />
       <workItem from="1698352852363" duration="849000" />
-      <workItem from="1698354211949" duration="785000" />
+      <workItem from="1698354211949" duration="5715000" />
     </task>
     <servers />
   </component>
