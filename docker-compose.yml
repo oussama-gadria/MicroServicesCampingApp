@@ -1,25 +1,75 @@
-version: "3"
+version: "2.7.4"
 services:
+  config-server:
+    container_name: config-server
+    build: ./config-server
+    hostname: config-server
+    ports:
+      - "8888:8888"
+
+  reservation:
+    container_name: reservation
+    build: ./Reservation
+    ports:
+      - "8556:8556"
+    hostname: reservation
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
+
+
   camping:
     container_name: camping
     build: ./Camping
     ports:
-      - "8084:8084"
+      - "8085:8085"
+    hostname: camping
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
+
+  offreplat:
+    container_name: offreplat
+    build: ./offrePlat
+    ports:
+      - "8555:8555"
+    hostname: offreplat
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
 
   discovery:
+    container_name: discovery
     build: ./EurekaServer
     ports:
       - "8761:8761"
     image: "discovery-service"
+    depends_on:
+      - config-server
 
   apigateway:
     container_name: apigateway
-    build: ./Apigetway
+    build: ./apigetway
     ports:
-      - "8089:8089"
+      - "8222:8222"
+    hostname: apigateway
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    image: "apigateway"
+    depends_on:
+      - discovery
+      - config-server
+
+  aviscamping:
+    container_name: aviscamping
+    build: ./AvisCamping
+    ports:
+      - "8045:8045"
+    hostname: aviscamping
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
     depends_on:
-      - discovery
+      - config-server
