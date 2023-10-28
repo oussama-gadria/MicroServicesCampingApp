@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
         <module name="config-server" />
-        <module name="AvisCamping" />
         <module name="Reservation" />
+        <module name="AvisCamping" />
         <module name="Apigetway" />
         <module name="program" />
         <module name="offrePlat" />

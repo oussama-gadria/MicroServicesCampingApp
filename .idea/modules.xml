@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/AvisCamping/AvisCamping.iml" filepath="$PROJECT_DIR$/AvisCamping/AvisCamping.iml" />
       <module fileurl="file://$PROJECT_DIR$/Camping/Camping.iml" filepath="$PROJECT_DIR$/Camping/Camping.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" filepath="$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reservation/Reservation.iml" filepath="$PROJECT_DIR$/Reservation/Reservation.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/offrePlat/offrePlat.iml" filepath="$PROJECT_DIR$/offrePlat/offrePlat.iml" />
