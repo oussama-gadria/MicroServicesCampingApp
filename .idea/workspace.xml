@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/offrePlat/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apigetway/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camping/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offrePlat/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +145,7 @@
       <workItem from="1698317485424" duration="6077000" />
       <workItem from="1698352852363" duration="27296000" />
       <workItem from="1698436100620" duration="9212000" />
-      <workItem from="1698447436328" duration="7473000" />
+      <workItem from="1698447436328" duration="9413000" />
     </task>
     <servers />
   </component>
