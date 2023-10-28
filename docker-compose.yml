@@ -7,6 +7,18 @@ services:
     ports:
       - "8888:8888"
 
+  reservation:
+    container_name: reservation
+    build: ./Reservation
+    ports:
+      - "8556:8556"
+    hostname: reservation
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
+
+
   camping:
     container_name: camping
     build: ./Camping
@@ -18,7 +30,19 @@ services:
     depends_on:
       - config-server
 
+  offreplat:
+    container_name: offreplat
+    build: ./offrePlat
+    ports:
+      - "8555:8555"
+    hostname: offreplat
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
+
   discovery:
+    container_name: discovery
     build: ./EurekaServer
     ports:
       - "8761:8761"

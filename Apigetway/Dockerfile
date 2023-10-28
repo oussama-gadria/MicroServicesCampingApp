@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8222
-ADD /target/cloud-gateway-service-0.0.1-SNAPSHOT.jar cloud-gateway-service.jar
+ADD /target/Apigetway-0.0.1-SNAPSHOT.jar Apigetway.jar
 ENTRYPOINT ["java" , "-jar" , "cloud-gateway-service.jar"]
