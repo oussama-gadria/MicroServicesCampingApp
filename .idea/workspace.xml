@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Reservation/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offrePlat/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apigetway/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camping/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/offreplat.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2XGlVEZH5KgL438aMMMbNQqtwMt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,18 +57,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/abede/Desktop/5TWIN1/MicroServicesCampingApp/Reservation",
+    "last_opened_file_path": "C:/Users/21653/Documents/GitHub/MicroServicesCampingApp/Reservation/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "8bb147504ca987286cdd3b4151ac701a"
+    "spring.configuration.checksum": "ab052bb55e0d5fdc3b756e2b50d35829"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\abede\Desktop\5TWIN1\MicroServicesCampingApp\Reservation" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -73,7 +71,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CampingApplication">
+  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
@@ -153,6 +151,7 @@
       <workItem from="1698317485424" duration="6077000" />
       <workItem from="1698352852363" duration="27296000" />
       <workItem from="1698436100620" duration="9212000" />
+      <workItem from="1698447436328" duration="7473000" />
     </task>
     <servers />
   </component>
