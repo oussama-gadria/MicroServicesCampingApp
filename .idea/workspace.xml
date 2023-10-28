@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apigetway/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apigetway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apigetway/src/main/java/com/Apigetway/Apigetway/ApigetwayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/src/main/java/com/Apigetway/Apigetway/ApigetwayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camping/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/src/main/java/com/Camping/Camping/CampingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camping/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Camping/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/java/com/EurekaServer/EurekaServer/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/com/EurekaServer/EurekaServer/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/configserver/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/configserver/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/EurekaServer.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/camping.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/camping.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +141,7 @@
       <workItem from="1698263320140" duration="3241000" />
       <workItem from="1698317485424" duration="6077000" />
       <workItem from="1698352852363" duration="27296000" />
-      <workItem from="1698436100620" duration="40175000" />
+      <workItem from="1698436100620" duration="40948000" />
     </task>
     <servers />
   </component>
