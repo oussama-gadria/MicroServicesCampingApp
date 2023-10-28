@@ -9,9 +9,13 @@
         <option value="$PROJECT_DIR$/Camping/pom.xml" />
         <option value="$PROJECT_DIR$/Apigetway/pom.xml" />
         <option value="$PROJECT_DIR$/offrePlat/pom.xml" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/AvisCamping/pom.xml" />
         <option value="$PROJECT_DIR$/Reservation/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/AvisCamping/pom.xml" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>

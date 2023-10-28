@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< Updated upstream
       <module fileurl="file://$PROJECT_DIR$/Apigetway/Apigetway.iml" filepath="$PROJECT_DIR$/Apigetway/Apigetway.iml" />
       <module fileurl="file://$PROJECT_DIR$/AvisCamping/AvisCamping.iml" filepath="$PROJECT_DIR$/AvisCamping/AvisCamping.iml" />
       <module fileurl="file://$PROJECT_DIR$/Camping/Camping.iml" filepath="$PROJECT_DIR$/Camping/Camping.iml" />
@@ -11,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/offrePlat/offrePlat.iml" filepath="$PROJECT_DIR$/offrePlat/offrePlat.iml" />
       <module fileurl="file://$PROJECT_DIR$/program/program.iml" filepath="$PROJECT_DIR$/program/program.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" filepath="$PROJECT_DIR$/.idea/MicroServicesCampingApp.iml" />
+>>>>>>> Stashed changes
     </modules>
   </component>
 </project>

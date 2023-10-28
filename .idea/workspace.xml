@@ -32,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< Updated upstream
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -47,6 +48,14 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "ab052bb55e0d5fdc3b756e2b50d35829"
+=======
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "mariem",
+    "last_opened_file_path": "C:/Users/MAISON INFO/IdeaProjects/project-microservices",
+    "nodejs_package_manager_path": "npm"
+>>>>>>> Stashed changes
   }
 }]]></component>
   <component name="RunDashboard">
@@ -64,7 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="AvisCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+=======
+    <configuration name="AvisCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="AvisCamping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.AvisCamping.AvisCampingApplication" />
       <method v="2">
@@ -106,7 +119,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+=======
+    <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="Reservation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Reservation.Reservation.ReservationApplication" />
       <method v="2">
@@ -114,11 +131,16 @@
       </method>
     </configuration>
     <list>
+<<<<<<< Updated upstream
       <item itemvalue="Spring Boot.ReservationApplication" />
       <item itemvalue="Spring Boot.AvisCampingApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.OffrePlatApplication" />
+=======
+      <item itemvalue="Spring Boot.AvisCampingApplication" />
+      <item itemvalue="Spring Boot.ReservationApplication" />
+>>>>>>> Stashed changes
       <item itemvalue="Spring Boot.ProgramApplication" />
       <item itemvalue="Spring Boot.ApigetwayApplication" />
       <item itemvalue="Spring Boot.CampingApplication" />
