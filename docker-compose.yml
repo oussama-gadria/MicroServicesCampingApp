@@ -38,3 +38,14 @@ services:
     depends_on:
       - discovery
       - config-server
+
+  aviscamping:
+    container_name: aviscamping
+    build: ./AvisCamping
+    ports:
+      - "8045:8045"
+    hostname: aviscamping
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - config-server
