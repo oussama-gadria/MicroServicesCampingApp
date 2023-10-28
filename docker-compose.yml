@@ -1,56 +1,25 @@
-version: "2.7.4"
+version: "3"
 services:
-  config-server:
-    container_name: config-server
-    build: ./config-server
-    hostname: config-server
-    ports:
-      - "8888:8888"
-
-
-
-
   camping:
     container_name: camping
     build: ./Camping
     ports:
-      - "8085:8085"
-    hostname: camping
+      - "8084:8084"
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
-    depends_on:
-      - config-server
-
-  offreplat:
-    container_name: offreplat
-    build: ./offrePlat
-    ports:
-      - "8555:8555"
-    hostname: offreplat
-    environment:
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
-    depends_on:
-      - config-server
 
   discovery:
-    container_name: discovery
     build: ./EurekaServer
     ports:
       - "8761:8761"
     image: "discovery-service"
-    depends_on:
-      - config-server
 
   apigateway:
     container_name: apigateway
-    build: ./apigetway
+    build: ./Apigetway
     ports:
-      - "8222:8222"
-    hostname: apigateway
+      - "8089:8089"
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
-    image: "apigateway"
     depends_on:
       - discovery
-      - config-server
-
