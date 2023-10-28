@@ -17,6 +17,16 @@
         <module name="Camping" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Apigetway" target="1.8" />
+      <module name="AvisCamping" target="1.8" />
+      <module name="Camping" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
+      <module name="offrePlat" target="1.8" />
+      <module name="program" target="1.8" />
+      <module name="Reservation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
