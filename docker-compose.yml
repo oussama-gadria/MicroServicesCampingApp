@@ -1,0 +1,49 @@
+version: "3"
+services:
+  camping:
+    container_name: camping
+    build: ./Camping
+    ports:
+      - "8084:8084"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+
+  discovery:
+    build: ./EurekaServer
+    ports:
+      - "8761:8761"
+    image: "discovery-service"
+
+  apigateway:
+    container_name: apigateway
+    build: ./Apigetway
+    ports:
+      - "8089:8089"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+
+  db-mysql:
+    image: mysql:latest
+    container_name: db-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "3307:3306"
+    restart: unless-stopped
+
+  offreplat:
+    container_name: offreplat
+    build: ./offrePlat
+    ports:
+      - "8555:8555"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db-mysql:3306/microserviceOffrePlat?createDatabaseIfNotExist=true&userSSL=false&max_allowed_packet=15728640
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - db-mysql
+    restart: unless-stopped
+

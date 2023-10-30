@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offrePlat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +19,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,6 +32,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -51,12 +53,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/amine/Desktop/MicroServicesCampingApp/Reservation/pom.xml",
-    "nodejs_package_manager_path": "npm",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "mariem",
+    "last_opened_file_path": "C:/Users/Makni Nour/Documents/GitHub/MicroServicesCampingApp",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "7776e151a7c7280bce4200ea537545d4"
+    "spring.configuration.checksum": "bc9c5b95b9ec6c135f31c41b64d12ee6"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -66,7 +70,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProgramApplication">
+  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
@@ -144,8 +148,13 @@
       <updated>1698263318885</updated>
       <workItem from="1698263320140" duration="3241000" />
       <workItem from="1698317485424" duration="6077000" />
-      <workItem from="1698352852363" duration="849000" />
-      <workItem from="1698354211949" duration="7254000" />
+      <workItem from="1698352852363" duration="27296000" />
+      <workItem from="1698436100620" duration="9212000" />
+      <workItem from="1698447436328" duration="8840000" />
+      <workItem from="1698496023672" duration="120000" />
+      <workItem from="1698496177583" duration="254000" />
+      <workItem from="1698513085246" duration="9698000" />
+      <workItem from="1698659684348" duration="8335000" />
     </task>
     <servers />
   </component>
