@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reservation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offrePlat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +38,31 @@
     </option>
   </component>
   <component name="ProjectId" id="2XGlVEZH5KgL438aMMMbNQqtwMt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;mariem&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/21653/Documents/GitHub/MicroServicesCampingApp&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ab052bb55e0d5fdc3b756e2b50d35829&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "mariem",
+    "last_opened_file_path": "C:/Users/Makni Nour/Documents/GitHub/MicroServicesCampingApp",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "bc9c5b95b9ec6c135f31c41b64d12ee6"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -75,20 +70,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AvisCampingApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Apigetway" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Apigetway" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
@@ -169,7 +151,10 @@
       <workItem from="1698352852363" duration="27296000" />
       <workItem from="1698436100620" duration="9212000" />
       <workItem from="1698447436328" duration="8840000" />
-      <workItem from="1698511644659" duration="686000" />
+      <workItem from="1698496023672" duration="120000" />
+      <workItem from="1698496177583" duration="254000" />
+      <workItem from="1698513085246" duration="9698000" />
+      <workItem from="1698659684348" duration="8335000" />
     </task>
     <servers />
   </component>
