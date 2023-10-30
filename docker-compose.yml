@@ -1,5 +1,16 @@
 version: "3"
 services:
+
+
+  reservation:
+    container_name: reservation
+    build: ./Reservation
+    ports:
+      - "8556:8556"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+
+
   camping:
     container_name: camping
     build: ./Camping
