@@ -8,7 +8,13 @@ services:
     ports:
       - "8556:8556"
     environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db-mysql:3306/microservicereservation?createDatabaseIfNotExist=true&userSSL=false&max_allowed_packet=15728640
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - db-mysql
+    restart: unless-stopped
 
 
   camping:
