@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,8 @@
       <workItem from="1698513085246" duration="9698000" />
       <workItem from="1698659684348" duration="8930000" />
       <workItem from="1698711912935" duration="1983000" />
-      <workItem from="1698778499942" duration="1117000" />
+      <workItem from="1698778499942" duration="1231000" />
+      <workItem from="1698780042906" duration="1118000" />
     </task>
     <servers />
   </component>

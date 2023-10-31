@@ -7,5 +7,26 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 spring:
-  application:
-    name: apigetway
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+      discovery:
+        locator:
+          # lower-case-service-id: true
+          enabled: true
+      routes:
+
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/camping
