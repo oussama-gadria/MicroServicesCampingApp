@@ -20,7 +20,7 @@ public class AvisController {
      IServiceAvis serviceAvis;
 
 
-    @GetMapping
+    @GetMapping("/listavis")
     public List<Avis> getAllAvis() {
         return serviceAvis.getAllAvis();
     }
@@ -36,7 +36,7 @@ public class AvisController {
         return serviceAvis.createAvis(avis);
     } */
 
-    @PostMapping
+    @PostMapping("/addAvis")
     @ResponseStatus(HttpStatus.CREATED)
     public Avis createAvis(@RequestParam("image") MultipartFile image, @RequestParam("titre") String titre, @RequestParam("note") int note,@RequestParam("description") String description, @RequestParam("dateDePublication") @DateTimeFormat(pattern = "yyyy-MM-dd") Date dateDePublication) {
 
@@ -66,7 +66,7 @@ public Avis updateAvis(@PathVariable Long id, @RequestBody Avis avis) {
         return serviceAvis.updateAvis(id, titre, description, dateDePublication, note,image);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("deleteAvis/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteAvis(@PathVariable Long id) {
         serviceAvis.deleteAvis(id);
