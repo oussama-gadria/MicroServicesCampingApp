@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reservation/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reservation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +163,7 @@
       <workItem from="1698447436328" duration="8840000" />
       <workItem from="1698511644659" duration="686000" />
       <workItem from="1698673573517" duration="642000" />
-      <workItem from="1698697904022" duration="7785000" />
+      <workItem from="1698697904022" duration="8384000" />
     </task>
     <servers />
   </component>
