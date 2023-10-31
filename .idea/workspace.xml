@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/program/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/program/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "bc9c5b95b9ec6c135f31c41b64d12ee6"
+    "spring.configuration.checksum": "cb9eac4db620ff8bf7a4f7cb334bb83a"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -157,6 +153,7 @@
       <workItem from="1698496177583" duration="254000" />
       <workItem from="1698513085246" duration="9698000" />
       <workItem from="1698659684348" duration="8335000" />
+      <workItem from="1698770643110" duration="1235000" />
     </task>
     <servers />
   </component>
