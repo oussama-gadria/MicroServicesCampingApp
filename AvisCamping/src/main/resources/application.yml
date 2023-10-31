@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: AvisCamping
-  config:
-    import: optional:configserver:http://localhost:8888
-
