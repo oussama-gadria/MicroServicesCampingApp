@@ -58,6 +58,9 @@
     "spring.configuration.checksum": "fd047e9034c372c528516fc82d8661c9"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -154,7 +157,7 @@
       <workItem from="1698778499942" duration="1231000" />
       <workItem from="1698780042906" duration="1118000" />
       <workItem from="1698787242682" duration="262000" />
-      <workItem from="1698787648767" duration="309000" />
+      <workItem from="1698787648767" duration="874000" />
     </task>
     <servers />
   </component>
