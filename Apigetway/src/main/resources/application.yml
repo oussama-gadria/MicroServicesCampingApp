@@ -1,5 +1,5 @@
 server:
-  port: 8089
+  port: 8091
 
 eureka:
   client:
@@ -8,4 +8,30 @@ eureka:
 
 spring:
   application:
-    name: apigetway
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: program
+          uri: http://localhost:8090
+          predicates:
+            - Path=/programs/**
+        - id: offreplat
+          uri: http://localhost:8555
+          predicates:
+            - Path=/api/microservice/offrePlat/**
+        - id: camping
+          uri: http://localhost:8084
+          predicates:
+            - Path=/camping/**
+        - id: aviscamping
+          uri: http://localhost:8045
+          predicates:
+            - Path=/avis/**
+        - id: reservation
+          uri: http://localhost:8556
+          predicates:
+            - Path=/reservations/**
