@@ -43,7 +43,7 @@ services:
     container_name: apigateway
     build: ./Apigetway
     ports:
-      - "8091:8089"
+      - "8091:8091"
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
     depends_on:

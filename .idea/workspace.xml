@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Apigetway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2XGlVEZH5KgL438aMMMbNQqtwMt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,17 +57,15 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "mariem",
-    "last_opened_file_path": "C:/Users/Makni Nour/Documents/GitHub/MicroServicesCampingApp",
+    "last_opened_file_path": "C:/Users/21653/Documents/GitHub/MicroServicesCampingApp",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "fd047e9034c372c528516fc82d8661c9"
+    "spring.configuration.checksum": "4de7070a63cdf9618c7a14f8f4d5c169"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -70,7 +73,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
+  <component name="RunManager" selected="Spring Boot.AvisCampingApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Apigetway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Apigetway" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
@@ -151,15 +167,9 @@
       <workItem from="1698352852363" duration="27296000" />
       <workItem from="1698436100620" duration="9212000" />
       <workItem from="1698447436328" duration="8840000" />
-      <workItem from="1698496023672" duration="120000" />
-      <workItem from="1698496177583" duration="254000" />
-      <workItem from="1698513085246" duration="9698000" />
-      <workItem from="1698659684348" duration="8930000" />
-      <workItem from="1698711912935" duration="1983000" />
-      <workItem from="1698778499942" duration="1231000" />
-      <workItem from="1698780042906" duration="1118000" />
-      <workItem from="1698787242682" duration="262000" />
-      <workItem from="1698787648767" duration="2251000" />
+      <workItem from="1698511644659" duration="686000" />
+      <workItem from="1698673573517" duration="642000" />
+      <workItem from="1698697904022" duration="7785000" />
     </task>
     <servers />
   </component>
