@@ -25,6 +25,14 @@ services:
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
 
+  aviscamping:
+    container_name: aviscamping
+    build: ./AvisCamping
+    ports:
+      - "8045:8045"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
+
   discovery:
     build: ./EurekaServer
     ports:
