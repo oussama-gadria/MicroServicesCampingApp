@@ -18,7 +18,7 @@ services:
     container_name: apigateway
     build: ./Apigetway
     ports:
-      - "8089:8089"
+      - "8091:8089"
     environment:
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka
     depends_on:
@@ -47,3 +47,11 @@ services:
       - db-mysql
     restart: unless-stopped
 
+
+  program:
+    container_name: program
+    build: ./program
+    ports:
+      - "8090:8090"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka

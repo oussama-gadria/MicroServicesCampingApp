@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df8dd15-0953-4224-9040-4abaf6601f8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/program/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offrePlat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/offrePlat/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/program/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "git-widget-placeholder": "mariem",
     "last_opened_file_path": "C:/Users/Makni Nour/Documents/GitHub/MicroServicesCampingApp",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -70,7 +72,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OffrePlatApplication">
+  <component name="RunManager" selected="Spring Boot.ProgramApplication">
     <configuration name="ApigetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Apigetway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Apigetway.Apigetway.ApigetwayApplication" />
